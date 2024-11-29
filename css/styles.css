@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+
+.descuentos{
+    background-color:aquamarine;
+    position: fixed;
+    width: 100%;
+    padding:10px;
+    padding-left: 20px;
+}
+header{
+    background-color: cornflowerblue;
+}
+h1{
+    padding: 15px;
+    padding: 20px 20px;
+    width: 100%;
+}
+/*poner al corazon posicion absolute**/
+main{
+    justify-content: center;
+    position:relative;
+    top: 120px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.fondoBatman{
+    width: 200px;
+    border-radius: 20px;
+}
+.fondoHarley{
+    width: 200px;
+    border-radius: 20px;
+}
+.fondoBatmantwo{
+    width: 200px;
+    border-radius: 20px;
+}
+.perfilBatman{
+    width: 150px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.perfilHarley{
+    width: 150px;
+    border-radius: 100px;
+    bottom: 50px;
+}
+.perfilBatmantwo{
+    width: 150px;
+    border-radius: 100px;
+    bottom: 50px;
+}
+.batman-left{
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+.harley{
+    display: inline-block;
+    margin-right: 20px;
+}
+.batman-right{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: aquamarine;
+    width: 100%;
+    margin:0 auto;
+}
