@@ -1,77 +1,186 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: o;
+    margin:0;
+    padding: 0;
+    font-family:'Roboto';
 }
-
-.descuentos{
-    background-color:aquamarine;
-    position: fixed;
-    width: 100%;
+header p {
+    background-color:#1CD1B0;
     padding:10px;
     padding-left: 20px;
-}
-header{
-    background-color: cornflowerblue;
+    width: 100%;
 }
 h1{
     padding: 15px;
     padding: 20px 20px;
     width: 100%;
+    background-color: cornflowerblue;
+    position: fixed;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
 }
-/*poner al corazon posicion absolute**/
-main{
-    justify-content: center;
-    position:relative;
-    top: 120px;
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-.fondoBatman{
-    width: 200px;
-    border-radius: 20px;
-}
-.fondoHarley{
-    width: 200px;
-    border-radius: 20px;
-}
-.fondoBatmantwo{
-    width: 200px;
-    border-radius: 20px;
-}
-.perfilBatman{
-    width: 150px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 50px;
-}
-.perfilHarley{
-    width: 150px;
-    border-radius: 100px;
-    bottom: 50px;
-}
-.perfilBatmantwo{
-    width: 150px;
-    border-radius: 100px;
-    bottom: 50px;
-}
-.batman-left{
-    margin-right: 20px;
-    position: relative;
-    display: inline-block;
-}
-.harley{
-    display: inline-block;
-    margin-right: 20px;
-}
-.batman-right{
-    display: inline-block;
-    margin-right: 20px;
+header{
+    margin-bottom: 6rem;
+    background-color: cornflowerblue;
 }
 
+main{
+    margin-bottom: 100px;
+    
+}
+
+.Cards{
+display:flex ;
+justify-content: space-evenly;
+
+
+}
+#hear{
+    position: absolute;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
+
+.caja-Batman{
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+#fondoBatman{
+    width: 300px;
+    height: 194px;
+    border-radius: 20px 20px 0 0;
+}
+#perfilBatman{
+    width: 150px;
+    border-radius: 100px;
+    bottom: 75px;
+    position: relative;
+}
+.infoBatman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 40px;
+
+}
+.infoBatman p{
+
+    margin: 5%;
+    margin-bottom: 22%;
+}
+
+
+button{
+    background-color: #00669F;
+    color: white;
+    height: 48.52px;
+    width: 128.78px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+ a{
+    color: white;
+    text-decoration: underline;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: gray;}
+
+
+
+.caja-Harley{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+#fondoHarley{
+    width: 300px;
+    height: 194px;
+    border-radius: 20px 20px 0 0;
+}
+#perfilHarley{
+    width: 150px;
+    border-radius: 100px;
+    bottom: 75px;
+    position: relative;
+}
+
+.infoHarley{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 40px;
+}
+.infoHarley p{
+
+    margin: 5%;
+    margin-bottom: 23.5%;}
+
+.caja-Superman{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #F3F3F3;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+
+}
+#fondoSuperman{
+    width: 300px;
+    height: 194px;
+    border-radius: 20px 20px 0 0;
+}
+#perfilSuperman{
+    width: 150px;
+    border-radius: 100px;
+    bottom: 75px;
+    position: relative;
+}
+.infoSuperman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 40px;
+}
+.infoSuperman p{
+
+    margin: 5%;
+    margin-bottom: 5%;}
+
+
 footer{
-    background-color: aquamarine;
+    background-color: #00669F;
     width: 100%;
-    margin:0 auto;
+    height: 50px;
+    align-content: center;
+    color: white;
+    padding-left: 15px;
+
 }
